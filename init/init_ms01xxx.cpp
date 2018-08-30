@@ -38,7 +38,7 @@
 
 void set_rild_libpath(char const *variant)
 {
-    std::string libpath("/system/vendor/lib/libsec-ril");
+    std::string libpath("/system/lib/libsec-ril");
 
     libpath += variant;
 
